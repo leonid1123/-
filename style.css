@@ -1,0 +1,14 @@
+button{
+    font-size: 26px;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buttons{
+    width: 400px;
+    height: 75px;
+    background-color: aqua;
+}
+#button1{
+    border-radius: 50px;
+    color: red;
+}
