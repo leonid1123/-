@@ -10,36 +10,75 @@
 
 <body>
     <button onclick="f1(3,' белочка')" id="button1" class="buttons">Кнопка1</button>
-    <button class="buttons">Кнопка2</button>
-    <button>Кнопка3</button>
-    <p id="text1" class="myText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius molestiae, excepturi
-        consequuntur facilis voluptate dolore ullam nobis itaque quisquam, iure maiores atque asperiores! Dicta beatae
-        commodi perferendis necessitatibus earum natus facilis officia? Illum dolorem hic necessitatibus? Molestiae odit
-        fuga autem maxime? Ea vitae quos tenetur id quidem, consequatur unde temporibus.</p>
-    <p class="myText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius molestiae, excepturi consequuntur
-        facilis voluptate dolore ullam nobis itaque quisquam, iure maiores atque asperiores! Dicta beatae commodi
-        perferendis necessitatibus earum natus facilis officia? Illum dolorem hic necessitatibus? Molestiae odit fuga
-        autem maxime? Ea vitae quos tenetur id quidem, consequatur unde temporibus.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius molestiae, excepturi consequuntur facilis voluptate
-        dolore ullam nobis itaque quisquam, iure maiores atque asperiores! Dicta beatae commodi perferendis
-        necessitatibus earum natus facilis officia? Illum dolorem hic necessitatibus? Molestiae odit fuga autem maxime?
-        Ea vitae quos tenetur id quidem, consequatur unde temporibus.</p>
-        <ul>
-            <li>раз</li>
-            <li>два</li>
-            <li>три</li>
-        </ul>
+    <button class="buttons" onclick="AddTag()">Кнопка2</button>
+    <button onclick="RemoveTag()">Кнопка3</button>
+    <p id="text1" class="myText" onmouseover="ChangeText()">Родился в неустановленную дату в конце XIII века на юге
+        современной Франции, в современном департаменте Гар, в ныне не существующем населённом пункте, название которого
+        в различных источниках пишется как Дё (фр. Deux), Део́ (Déaulx) или До (Deaux), и который располагался по одним
+        данным вблизи современного Блозака[fr][3], по другим — вблизи современного Везенобра[fr][4]. C 1319 года —
+        приходской священник. С 5 сентября 1323 года и до 1329 года[4] (по другим данным — до 18 декабря 1338 года[3]) —
+        епископ Амбрёна. С 18 августа 1326 года в этом качестве принимал участие в Авиньонском соборе[fr]. За время
+        своего епископства проявил себя как умелый переговорщик, проведя в жизнь несколько поручений по примирению
+        конфликтовавших по различным поводам сторон. Это его умение было замечено папой Иоанном XXII, в связи с чем с
+        октября 1333 года выполнял ряд его особых поручений в Италии. Так, 9 октября этого года Бертран выступал
+        посредником между кардиналом Бертраном дю Пюже и сеньорами Папской области, а 17 октября ему была поручена
+        разработка реформ папского государства. Однако, из-за недавнего поражения папского союзника Иоганна
+        Люксембургского при Ферраре в апреле 1333 года, реформа была неосуществимой и Бертран даже не пытался её
+        проводить. Вместо этого он отправился в Венецию, где попытался заключить соглашение с венецианцами и
+        византийцами[3][4]. </p>
+    <p class="myText">После избрания на папский престол Бенедикта XII в конце 1334 года, обладавшего куда бо́льшей
+        политической гибкостью, чем его предшественник, продолжил выступать с многочисленными политическими миссиями от
+        имени папы — прежде всего на Апеннинском полуострове. Благодаря усилиям Бертана де Дё в 1335—1336 годах многие
+        итальянские города подписали с папским престолом особые «конституции», определявшие их взаимоотношение с
+        руководством Католической церкви. 10 апреля 1337 года был отозван из Италии в Авиньон, где в то время
+        располагался папский престол, и был подвергнут суровой критике за свою законотворческую деятельность со стороны
+        нескольких высокопоставленных служителей церкви. Однако, папа был настолько доволен результатами деятельности
+        Бертрана, что не только не отстранил его, но назначил кардиналом 18 декабря 1338 года, а 12 мая 1344 года
+        следующий папа Климент VI назначил его своим легатом. С 1345 по 1347 годы в этом качестве находился в Неаполе,
+        где занимался расследованием убийства принца Андрея Венгерского, однако проявил слабость и не предпринял
+        достаточных усилий для наказания убийц, за что получил взыскание со стороны папы[4]. </p>
+    <p>Тем не менее 15 сентября и повторно 12 октября 1347 года получил от Климента VI новое важное задание —
+        отправиться в Рим, власть которого незадолго до этого захватил Колы ди Риенцо, и постараться добиться
+        восстановления в городе власти папы. Бертран поехал в Рим, встретился с Колой ди Риенцо (который, по
+        свидетельствам очевидцев, пришёл на эту встречу в камзоле, надетом поверх доспехов), но не смог ни о чём с ним
+        договориться, и покинул город. Вернулся в Рим лишь 15 декабря, когда режим Колы ди Риенцо пал без участия
+        Бертрана де Дё[1][4]. В 1348 году предпринял ряд попыток по прекращению разразившейся на Апеннинах войны и по
+        защите папских владений и гвельфских городов — встречался с королём Людовиком Венгерским и с кондотьером
+        Вернером Урслингеном, но вновь безрезультатно, так что папа вновь жаловался на пассивность Бертрана. 4 ноября
+        1348 года вернулся в Авиньон, а 17 ноября был избран кардиналом-епископом сабинским. В марте 1353 года был
+        включён в состав комиссии по пересмотру старинных обвинений семьи Висконти в ереси. В сентябре того же года ему
+        была поручена новая миссия в Португалии, однако выполнить её не успел, поскольку скончался в Авиньоне 21 октября
+        1355 года[4]</p>
+    <ul>
+        <li>раз</li>
+        <li>два</li>
+        <li>три</li>
+    </ul>
+    <form>
+        <input class="myInput" type="text" value="123">
+    </form>
     <script>
         let txt1 = document.getElementsByTagName("p");
         let txt2 = document.getElementsByClassName("myText");
         let txt3 = document.getElementById("text1");
 
+        let inp = document.getElementsByClassName("myInput");
+
         function f1(_x, _y) {
             console.log("тык " + _x + _y);
         }
-        function ChangeText(){
-            txt3.inn
+        function ChangeText() {
+            txt3.innerText = inp[0].value;
         }
+        function AddTag(){
+            let newtag = document.createElement("p");
+            newtag.innerText="Это новый тэг";
+            document.body.insertBefore(newtag,txt1[1]);
+        }
+        function RemoveTag(){
+            txt3.remove();
+        }
+
     </script>
 </body>
 
